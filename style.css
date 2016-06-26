@@ -1,0 +1,84 @@
+ntml, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.nav-bar {
+    float: right;
+    margin-right: 10px;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+    margin: 8px;
+}
+li img {
+    position: relative;
+    top: 5px;
+}
+a {
+    color: #757575;
+    text-decoration: none;
+     font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+.nav-bar button {
+    background-color: #4386FB;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 65px;
+    border: none;
+    border-radius: 1px;
+
+}
+
+.search {
+    position: relative;
+    left: 500px;
+    top: 200px;
+    width: 500px;
+    height: 500px;
+}
+
+input {
+    position: relative;
+    right: 160px;
+    top: 35px;
+    height: 40px;
+    width: 600px;
+    border: 1px solid #D9D9D9;
+}
+.src-btn button {
+    background-color: f4f4f4;
+    color: #757575;
+    height: 35px;
+    width: 130px;
+    border: none;
+    font-weight: bold;
+}
+#l-btn {
+    position: relative;
+    right: 0px;
+    top: 70px;
+}
+#r-btn {
+    position: relative;
+    left: 10px;
+    top: 70px;
+    
+}
+
+#foot-bar ul {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
